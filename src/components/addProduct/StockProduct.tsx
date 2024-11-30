@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "../ui/button";
 import {
   Card,
@@ -10,13 +11,14 @@ import { Input } from "../ui/input";
 import { Switch } from "../ui/switch";
 
 const StockProduct = () => {
+  const [checked, setChecked] = useState(true);
   return (
     <Card className="rounded-none">
       <CardHeader className="pl-[120px]">
         <CardTitle className="text-[#8B4AA3] flex flex-row justify-between items-center">
           بيانات المخزون
           <div className="flex flex-col gap-2 items-center text-[10px]">
-            <Switch />
+            <Switch checked={checked} onCheckedChange={setChecked} />
             متوفر
           </div>
         </CardTitle>
