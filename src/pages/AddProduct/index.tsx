@@ -25,7 +25,9 @@ const AddProduct = () => {
               <StockProduct />
               <SupplierDetails />
             </div>
-            <ProductSpecifications />
+            <div className="col-span-3 flex-1 h-full">
+              <ProductSpecifications />
+            </div>
           </div>
         </div>
       </Layout.Body>
