@@ -15,7 +15,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { SideLink } from "@/data/sideLinks";
-import useCheckActiveNav from "@/hooks/use-check-active-nav";
+import useCheckActiveNav from "@/hooks/useCheckActiveNav";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router";
 import { Button, buttonVariants } from "../ui/button";
