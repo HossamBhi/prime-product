@@ -12,7 +12,7 @@ const PageHeader = () => {
     <div className="flex items-center justify-between w-full">
       <InputWithIcon placeholder="البحث" />
       <div className="flex items-center space-x-4">
-        <IconLanguage size={20} />
+        <IconLanguage size={20} className="ml-4" />
         <IconSun size={20} />
         <IconStar size={20} />
         <IconBell size={20} />
