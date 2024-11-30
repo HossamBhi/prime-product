@@ -1,4 +1,4 @@
-import { sideLinks } from "@/data/sideLinks";
+import { SIDE_NAV_TOP_ITEMS } from "@/data/sideLinks";
 import { cn } from "@/lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
@@ -83,7 +83,7 @@ SidebarProps) {
           }`}
           closeNav={() => setNavOpened(false)}
           isCollapsed={isCollapsed}
-          links={sideLinks}
+          links={SIDE_NAV_TOP_ITEMS}
         />
 
         {/* Scrollbar width toggle button */}
