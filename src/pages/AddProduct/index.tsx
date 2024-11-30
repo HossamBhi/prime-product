@@ -1,6 +1,7 @@
 import AttachmentCard from "@/components/addProduct/AttachmentCard";
 import MainProductDetails from "@/components/addProduct/MainProductDetails";
 import ProductSpecifications from "@/components/addProduct/ProductSpecifications";
+import SEODetails from "@/components/addProduct/SEODetails";
 import StockProduct from "@/components/addProduct/StockProduct";
 import SupplierDetails from "@/components/addProduct/SupplierDetails";
 import { Layout } from "@/components/custom/layout";
@@ -40,6 +41,9 @@ const AddProduct = () => {
             </div>
             <div className="col-span-3 flex-1 h-full">
               <AttachmentCard />
+            </div>
+            <div className="col-span-6">
+              <SEODetails />
             </div>
           </div>
         </div>
