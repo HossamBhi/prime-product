@@ -56,7 +56,7 @@ const MainProductDetails = () => {
               <Select>
                 <SelectTrigger
                   id="framework"
-                  className="text-[#959595] rounded-[10px] flex-row-reverse border-[#8B4AA3] outline-none text-[12px]"
+                  className="text-[#959595] rounded-[10px] flex-row-reverse border-[#8B4AA350] outline-none text-[12px]"
                 >
                   <SelectValue placeholder="اختيار التصنيف" />
                 </SelectTrigger>
@@ -78,19 +78,19 @@ const MainProductDetails = () => {
               <FormItemWithIcon icon={"./icons/write_svgrepo.com.svg"}>
                 <Input
                   placeholder="اسم المنتج"
-                  className="border-[#8B4AA3] rounded-[10px]"
+                  className="border-[#8B4AA350] rounded-[10px]"
                 />
               </FormItemWithIcon>
               <FormItemWithIcon icon={"./icons/write_svgrepo.com.svg"}>
                 <Input
                   placeholder="رمز المنتج SKU"
-                  className="border-[#8B4AA3] rounded-[10px]"
+                  className="border-[#8B4AA350] rounded-[10px]"
                 />
               </FormItemWithIcon>
               <FormItemWithIcon icon={"./icons/barcode_svgrepo.com.svg"}>
                 <Input
                   placeholder="باركود المنتج "
-                  className="border-[#8B4AA3] rounded-[10px]"
+                  className="border-[#8B4AA350] rounded-[10px]"
                 />
               </FormItemWithIcon>
               <FormItemWithIcon
@@ -99,7 +99,7 @@ const MainProductDetails = () => {
               >
                 <Textarea
                   placeholder="وصف مختصر"
-                  className="border-[#8B4AA3] rounded-[10px]"
+                  className="border-[#8B4AA350] rounded-[10px]"
                 />
               </FormItemWithIcon>
               <FormItemWithIcon
@@ -108,7 +108,7 @@ const MainProductDetails = () => {
               >
                 <Textarea
                   placeholder="الوصف الكامل"
-                  className="border-[#8B4AA3] rounded-[10px]"
+                  className="border-[#8B4AA350] rounded-[10px]"
                 />
               </FormItemWithIcon>
             </div>
@@ -116,7 +116,7 @@ const MainProductDetails = () => {
               <Select>
                 <SelectTrigger
                   id="framework"
-                  className="text-[#959595] rounded-[10px] flex-row-reverse border-[#8B4AA3] outline-none text-[12px]"
+                  className="text-[#959595] rounded-[10px] flex-row-reverse border-[#8B4AA350] outline-none text-[12px]"
                 >
                   <SelectValue placeholder="لغات العرض" />
                 </SelectTrigger>
