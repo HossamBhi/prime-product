@@ -1,3 +1,7 @@
+import MainProductDetails from "@/components/addProduct/MainProductDetails";
+import ProductSpecifications from "@/components/addProduct/ProductSpecifications";
+import StockProduct from "@/components/addProduct/StockProduct";
+import SupplierDetails from "@/components/addProduct/SupplierDetails";
 import { Layout } from "@/components/custom/layout";
 import PageHeader from "@/components/custom/PageHeader";
 
@@ -12,10 +16,16 @@ const AddProduct = () => {
       {/* ===== Main ===== */}
       <Layout.Body>
         <div className="space-y-4">
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4"></div>
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-6">
-            {/* <LatestUsers />
-            <LatestAds /> */}
+          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4"></div>
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-6">
+            <div className="col-span-3">
+              <MainProductDetails />
+            </div>
+            <div className="flex flex-col col-span-3 gap-8">
+              <StockProduct />
+              <SupplierDetails />
+            </div>
+            <ProductSpecifications />
           </div>
         </div>
       </Layout.Body>
