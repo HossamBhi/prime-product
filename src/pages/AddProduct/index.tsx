@@ -1,4 +1,5 @@
 import AttachmentCard from "@/components/addProduct/AttachmentCard";
+import Footer from "@/components/addProduct/Footer";
 import MainProductDetails from "@/components/addProduct/MainProductDetails";
 import ProductSpecifications from "@/components/addProduct/ProductSpecifications";
 import SEODetails from "@/components/addProduct/SEODetails";
@@ -25,25 +26,28 @@ const AddProduct = () => {
       </Layout.Header>
 
       {/* ===== Main ===== */}
-      <Layout.Body className="pt-[12px]">
+      <Layout.Body className="pt-[12px] pb-0">
         <div className="space-y-4">
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4"></div>
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-6">
-            <div className="col-span-3 flex-1 h-full">
+            <div className="col-span-1 lg:col-span-3 flex-1 h-full">
               <MainProductDetails />
             </div>
-            <div className="flex flex-col col-span-3 gap-8">
+            <div className="flex flex-col col-span-1 lg:col-span-3 gap-8">
               <StockProduct />
               <SupplierDetails />
             </div>
-            <div className="col-span-3 flex-1 h-full">
+            <div className="col-span-1 lg:col-span-3 flex-1 h-full">
               <ProductSpecifications />
             </div>
-            <div className="col-span-3 flex-1 h-full">
+            <div className="col-span-1 lg:col-span-3 flex-1 h-full">
               <AttachmentCard />
             </div>
-            <div className="col-span-6">
+            <div className="col-span-1 lg:col-span-6">
               <SEODetails />
+            </div>
+            <div className="col-span-1 lg:col-span-6">
+              <Footer />
             </div>
           </div>
         </div>
