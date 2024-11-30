@@ -6,6 +6,7 @@ import useCheckActiveNav from "@/hooks/useCheckActiveNav";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router";
 import { buttonVariants } from "../ui/button";
+import BottomStatistic from "./BottomStatistic";
 
 interface NavProps extends React.HTMLAttributes<HTMLDivElement> {
   isCollapsed: boolean;
@@ -41,6 +42,7 @@ export default function Nav({
         <nav className="grid group-[[data-collapsed=true]]:justify-center group-[[data-collapsed=true]]:px-2">
           {links.map(renderLink)}
         </nav>
+        <BottomStatistic />
       </TooltipProvider>
     </div>
   );

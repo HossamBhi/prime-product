@@ -2,8 +2,8 @@ import { SIDE_NAV_TOP_ITEMS } from "@/data/sideLinks";
 import { cn } from "@/lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
+import { Layout } from "../custom/layout";
 import { Button } from "../ui/button";
-import { Layout } from "./layout";
 import Nav from "./nav";
 
 interface SidebarProps extends React.HTMLAttributes<HTMLElement> {

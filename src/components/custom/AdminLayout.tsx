@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { Outlet } from "react-router";
-import Sidebar from "./sidebar";
+import Sidebar from "../sidebar/sidebar";
 
 const AdminLayout = () => {
-  // const [isCollapsed, setIsCollapsed] = useIsCollapsed();
   const [isCollapsed, setIsCollapsed] = useState(false);
   return (
     <div className="relative h-full overflow-hidden bg-background">
