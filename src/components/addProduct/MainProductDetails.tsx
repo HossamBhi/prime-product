@@ -35,7 +35,7 @@ const FormItemWithIcon = ({
 
 const MainProductDetails = () => {
   return (
-    <Card className="rounded-none">
+    <Card className="rounded-none h-full">
       <CardHeader className="pl-[120px]">
         <CardTitle className="text-[#8B4AA3] flex flex-row justify-between items-center">
           بيانات المنتج الرئيسية
