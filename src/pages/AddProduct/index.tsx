@@ -1,3 +1,4 @@
+import AttachmentCard from "@/components/addProduct/AttachmentCard";
 import MainProductDetails from "@/components/addProduct/MainProductDetails";
 import ProductSpecifications from "@/components/addProduct/ProductSpecifications";
 import StockProduct from "@/components/addProduct/StockProduct";
@@ -36,6 +37,9 @@ const AddProduct = () => {
             </div>
             <div className="col-span-3 flex-1 h-full">
               <ProductSpecifications />
+            </div>
+            <div className="col-span-3 flex-1 h-full">
+              <AttachmentCard />
             </div>
           </div>
         </div>
